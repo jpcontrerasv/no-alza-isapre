@@ -1,0 +1,86 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/*Reset JP*/
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+@mixin box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+*, p, a {
+	margin:0;
+	padding:0;
+}
+.text-center {
+  text-align:center;
+}
+.text-left {
+  text-align:left;
+}
+.text-right {
+  text-align:right;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+.no-column {
+	padding-left:0;
+	padding-right:0;
+}
+
+/*Fuentes*/
+$em-1: 1em;
+$em-2: 2em;
+$em-3: 3em;
+$em-4: 4em;
+
+@mixin transicion {
+	transition:all .5s ease;
+}
+body {
+	padding-top:3%;
+}
+#main-img {
+	img {
+		width:100%;
+		max-width:100%;
+	}
+}
+#main-contact {
+	padding-top:5%;
+	fieldset {
+		padding-top:7%;
+		margin-bottom:40px;
+	}
+}
+.rs {
+	margin-bottom:30px;
+}
